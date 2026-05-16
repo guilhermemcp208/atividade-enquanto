@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro resultado = 0 , numero , pares = 0 
+		
+		enquanto(resultado < 10){ 
+			escreva(" \n digite um numero: ") 
+			leia(numero) 
+			
+		
+			se (numero % 2 == 0) {
+				pares = pares + 1
+			}
+			
+			resultado = resultado + 1 
+    } 
+		
+		escreva("\n quantidade de numeros pares: " , pares)
