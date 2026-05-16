@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro resultado = 0 , numero , soma=0
+enquanto(resultado<5){
+  escreva(" \n digite um numero: ")
+  leia(numero)
+  soma = soma + numero
+  resultado = resultado + 1
+  escreva("seu resultado e " , soma)
+}
