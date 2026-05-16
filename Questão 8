@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro senha ,  contador = 0
+    enquanto(contador != 1){
+      escreva("\ndigite a senha: ")
+      leia(senha)
+      se(senha != 1234){
+        escreva("senha incorreta. tente novamente")
+      }senao{
+        escreva("Acesso permitido.")
+        contador = contador + 1
+      }
