@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real salario, percentual, reajuste, novosalario
+    escreva("Digite o salário atual: ")
+      leia(salario)
+        escreva("Digite o percentual de reajuste: ")
+        leia(percentual)
+
+        reajuste = salario * percentual / 100
+        novosalario = salario + reajuste
+
+        escreva("\nNovo salário: ", novosalario)
+  }
