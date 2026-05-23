@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, troca
+    
+    escreva("Digite o valor de A: ")
+      leia(a)
+    escreva("Digite o valor de B: ")
+      leia(b)
+    troca = a
+    a = b
+    b = troca
+    escreva("\nNovo valor de A: ", a)
+    escreva("\nNovo valor de B: ", b)
