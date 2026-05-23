@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, c, ordem
+
+    escreva("Digite o primeiro valor: ")
+      leia(a)
+        escreva("Digite o segundo valor: ")
+          leia(b)
+            escreva("Digite o terceiro valor: ")
+              leia(c)
+                se (a > b){
+                  ordem = a 
+                  a = b 
+                  b = ordem
+                }se (a > c){
+                  ordem = a 
+                  a = c 
+                  c = ordem
+                }se ( b > c){
+                  ordem = b 
+                  b = c
+                  c = ordem
+                }
+                  escreva ("\nOrdem crescente: ", a," ", b," ", c)
+  }
